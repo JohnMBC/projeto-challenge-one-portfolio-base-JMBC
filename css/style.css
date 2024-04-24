@@ -1,0 +1,310 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root {
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+}
+
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sessão Menu*/
+
+
+.menu {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 100px;
+    width: 1314px;
+    height: 50px;
+
+}
+
+.menu header {
+    display: flex;
+    border: 1px solid orange;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.menu__list {
+    display: flex;
+    gap: 15px;
+    border: #000 1px solid;
+}
+
+.menu nav {
+    display: flex;
+    border: 1px solid green;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu__list__item {
+    border: 1px solid rgb(0, 229, 255);
+    align-items: center;
+}
+
+.menu__list__item__contato {}
+
+/*Sessão Title*/
+
+.title {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 60px 0;
+    margin: 0px 100px;
+    width: 1314px;
+    height: 450px;
+
+
+}
+
+.title__div {
+    border: rgb(195, 0, 255) 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.title__profile {
+    border: rgb(63, 29, 56) 1px solid;
+    display: flex;
+}
+
+
+.title__container {
+    border: rgb(102, 241, 64) 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.title__bio {
+    border: rgb(11, 99, 119) 1px solid;
+    font-size: 52px;
+
+
+}
+
+.title__subsection {
+    border: rgb(173, 84, 16) 1px solid;
+    font-size: 22px;
+}
+
+.title__network {
+    border: #000 2px solid;
+    display: flex;
+    gap: 20px;
+}
+
+/*Sessão About*/
+
+.about img {
+    border: 1px solid red;
+    display: flex;
+    width: 100px;
+    
+
+}
+
+.about__container {
+    border: 1px solid rebeccapurple;
+    margin: 100px; 
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background: #EAF2FD;
+    gap: 30px;
+    padding: 50px 0;
+    width: 1314px;
+
+}
+
+.about__title {
+    display: flex;
+    border: 1px solid rgb(73, 159, 177);
+    font-size: 32px;
+}
+
+.about__paragraph {
+    display: flex;
+    border: 1px solid rgb(0, 255, 38);
+}
+
+/*Sessão Skills*/
+
+section.skills {
+    border: 1px solid orange;
+    width: 1314px;
+    height: 244px;
+    margin: 0 100px;
+
+
+
+}
+
+.skills__title {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+}
+
+.skills__box {
+    border: 1px solid royalblue;
+    display: flex;
+    align-items: flex-end;
+    width: 176px;
+    height: 174px;
+    padding: 10px;
+}
+
+
+
+.skills__img {
+
+
+}
+
+.skills__name {}
+
+
+/*Sessão Hobbies*/
+
+section.hobbies {
+
+    border: 1px solid pink;
+    width: 1314px;
+    height: 244px;
+    margin: 0 100px;
+
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.hobbies__title{
+    border: #f1ca08 1px solid;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+
+.hobbies__box{
+    border: 1px solid royalblue;
+    display: flex;
+    align-items: flex-end;
+    width: 176px;
+    height: 174px;
+    padding: 10px;
+}
+
+
+.hobbies__img{
+
+}
+
+.hobbies__name{
+
+}
+
+
+
+
+/* Experiência Acadêmica*/
+
+section.academic {}
+
+/* experiência*/
+
+section.experience {}
+
+/*Contato*/
+
+section.formcontato {}
+
+/*footeer*/
+
+section.footer {}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menu */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Experiências acadêmicas*/
+
+    /*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sessão sobre*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formação Acadêmica*/
+
+    /*Experiência Profissional*/
+
+    /*Contato*/
+
+    /*Footer*/
+
+}
