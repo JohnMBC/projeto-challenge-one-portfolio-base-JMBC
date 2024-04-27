@@ -126,13 +126,13 @@ https://en.bem.info/methodology/quick-start/*/
     border: 1px solid red;
     display: flex;
     width: 100px;
-    
+
 
 }
 
 .about__container {
     border: 1px solid rebeccapurple;
-    margin: 100px; 
+    margin: 100px;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -179,7 +179,7 @@ section.skills {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-  
+
 }
 
 .skills__box {
@@ -212,15 +212,13 @@ section.hobbies {
 
 }
 
-.hobbies__line{
+.hobbies__line {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
 
 }
 
-.hobbies__title{
+.hobbies__title {
     border: #f1ca08 1px solid;
     display: flex;
     justify-content: center;
@@ -229,7 +227,7 @@ section.hobbies {
 }
 
 
-.hobbies__box{
+.hobbies__box {
     border: 1px solid royalblue;
     display: flex;
     align-items: flex-end;
@@ -239,20 +237,49 @@ section.hobbies {
 }
 
 
-.hobbies__img{
+.hobbies__img {}
 
-}
-
-.hobbies__name{
-
-}
+.hobbies__name {}
 
 
 
 
 /* Experiência Acadêmica*/
 
-section.academic {}
+section.academic {
+    border: 1px solid pink;
+    width: 1314px;
+    height: 488px;
+    margin: 0 100px;
+
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.academic__title {
+    border: #f1ca08 1px solid;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+
+}
+
+.academic__courses__box {
+    border: 1px solid red;
+    display: flex;
+    align-items: flex-end;
+    width: 368px;
+    height: 347px;
+    padding: 10px;
+}
+
+
 
 /* experiência*/
 
