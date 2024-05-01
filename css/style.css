@@ -22,24 +22,29 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+body {
+    width: 100%;
+    height: 100%;
+    border: 6px solid navy;
+}
+
+
 /*Sessão Menu*/
-
-
 .menu {
     display: flex;
-    border: 1px solid red;
+    /* border: 4px solid red; */
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     margin: 0 100px;
-    width: 1314px;
-    height: 50px;
+    /* width: 1314px; */
+    /* height: 50px; */
 
 }
 
 .menu header {
     display: flex;
-    border: 1px solid orange;
+    border: 3px solid orange;
     align-items: center;
     gap: 10px;
 }
@@ -53,13 +58,13 @@ https://en.bem.info/methodology/quick-start/*/
 
 .menu nav {
     display: flex;
-    border: 1px solid green;
+    border: 3px solid green;
     align-items: center;
     gap: 15px;
 }
 
 .menu__list__item {
-    border: 1px solid rgb(0, 229, 255);
+    border: 2px solid rgb(0, 229, 255);
     align-items: center;
 }
 
@@ -68,7 +73,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Title*/
 
 .title {
-    border: 1px solid black;
+    border: 4px solid black;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -81,7 +86,7 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .title__div {
-    border: rgb(195, 0, 255) 1px solid;
+    border: rgb(195, 0, 255) 4px solid;
     display: flex;
     flex-direction: row-reverse;
 
@@ -89,13 +94,13 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .title__profile {
-    border: rgb(63, 29, 56) 1px solid;
+    border: rgb(63, 29, 56) 3px solid;
     display: flex;
 }
 
 
 .title__container {
-    border: rgb(102, 241, 64) 1px solid;
+    border: rgb(102, 241, 64) 4px solid;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -103,19 +108,19 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .title__bio {
-    border: rgb(11, 99, 119) 1px solid;
+    border: rgb(11, 99, 119) 3px solid;
     font-size: 52px;
 
 
 }
 
 .title__subsection {
-    border: rgb(173, 84, 16) 1px solid;
+    border: rgb(173, 84, 16) 3px solid;
     font-size: 22px;
 }
 
 .title__network {
-    border: #000 2px solid;
+    border: #000 3px solid;
     display: flex;
     gap: 20px;
 }
@@ -123,7 +128,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão About*/
 
 .about img {
-    border: 1px solid red;
+    border: 3px solid red;
     display: flex;
     width: 100px;
 
@@ -131,33 +136,31 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .about__container {
-    border: 1px solid rebeccapurple;
-    margin: 100px;
+    border: 5px solid #663399;
     display: flex;
     flex-direction: column;
     height: 300px;
     background: #EAF2FD;
     gap: 30px;
-    padding: 50px 0;
-    width: 1314px;
+    padding: 100px;
+    /* width: auto; */
 
 }
 
 .about__title {
-    display: flex;
-    border: 1px solid rgb(73, 159, 177);
+    border: 3px solid rgb(73, 159, 177);
     font-size: 32px;
 }
 
 .about__paragraph {
     display: flex;
-    border: 1px solid rgb(0, 255, 38);
+    border: 3px solid rgb(0, 255, 38);
 }
 
 /*Sessão Skills*/
 
 section.skills {
-    border: 1px solid orange;
+    border: 4px solid orange;
     width: 1314px;
     height: 244px;
     margin: 0 100px;
@@ -167,7 +170,7 @@ section.skills {
 }
 
 .skills__title {
-    border: 1px solid red;
+    border: 3px solid red;
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -183,7 +186,7 @@ section.skills {
 }
 
 .skills__box {
-    border: 1px solid royalblue;
+    border: 2px solid royalblue;
     display: flex;
     align-items: flex-end;
     width: 176px;
@@ -205,10 +208,10 @@ section.skills {
 
 section.hobbies {
 
-    border: 1px solid pink;
+    border: 4px solid rgb(114, 25, 40);
     width: 1314px;
     height: 244px;
-    margin: 0 100px;
+    margin: 100px;
 
 }
 
@@ -219,7 +222,7 @@ section.hobbies {
 }
 
 .hobbies__title {
-    border: #f1ca08 1px solid;
+    border: #27ee1c 3px solid;
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -228,7 +231,7 @@ section.hobbies {
 
 
 .hobbies__box {
-    border: 1px solid royalblue;
+    border: 2px solid royalblue;
     display: flex;
     align-items: flex-end;
     width: 176px;
@@ -247,10 +250,11 @@ section.hobbies {
 /* Experiência Acadêmica*/
 
 section.academic {
-    border: 1px solid pink;
+    border: 4px solid rgb(154, 44, 63);
     width: 1314px;
     height: 488px;
-    margin: 0 100px;
+    margin: 100px;
+    background: #EAF2FD;
 
 }
 
@@ -262,16 +266,16 @@ section.academic {
 }
 
 .academic__title {
-    border: #f1ca08 1px solid;
+    border: #f1ca08 4px solid;
     display: flex;
     justify-content: center;
     font-size: 30px;
-    
+
 
 }
 
 .academic__courses__box {
-    border: 1px solid red;
+    border: 3px solid red;
     display: flex;
     align-items: flex-end;
     width: 368px;
@@ -283,20 +287,120 @@ section.academic {
 
 /* experiência*/
 
-section.experience {}
+section.experience {
+    display: flex;
+    border: 4px solid green;
+    flex-direction: column;
+    margin: 0 100px;
+    width: 1314px;
+
+
+}
+
+.experience__section__title {
+    border: 2px solid darkmagenta;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+
+}
+
+.experiencie__box {
+    display: flex;
+    /* flex-direction: column; */
+    border: 2px solid pink;
+    height: 406px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.experience__img {
+    border: 3px solid rgb(60, 8, 165);
+    width: 752px;
+    height: 406px;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid firebrick;
+    width: 348px;
+    height: 112px;
+    gap: 10px;
+
+}
+
+.experience__title {}
+
+.experience__text {}
+
+.experience__description {}
+
+
+
 
 /*Contato*/
 
-section.formcontato {}
+
+
+section.formcontato {
+    display: flex;
+    border: 5px solid #ffa500;
+    padding: 100px;
+    background: #EAF2FD;
+
+
+}
+
+.formcontato__contacto {
+    border: 3px solid;
+    display: flex;
+    gap: 20px;
+    /* padding: 100px; */
+}
+
+.formcontato--esquerda {
+    border: 2px solid red;
+}
+
+.formcontato__img {}
+
+.formcontato__text {}
+
+
+.formcontato__title {
+    border: 2px solid darkolivegreen;
+}
+
+.formcontato__subtext {}
+
+.formcontato__form {
+    display: flex;
+    /* width: 656px; */
+    /* height: 397px; */
+    justify-content: space-around;
+    border: 2px solid chartreuse;
+    flex-direction: column;
+}
 
 /*footeer*/
 
-section.footer {}
+section.footer p {
+    /* border: 1px solid violet; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
-/*Tablet*/
+/* Tablet */
 @media (min-width: 768px) {
 
     /* Menu */
